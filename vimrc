@@ -65,7 +65,7 @@ map <leader>s :source ~/.vimrc<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 
 " cancel search with ESC
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+"nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
 " save with ,w
 map <leader>w :w!<CR>
