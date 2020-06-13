@@ -132,6 +132,7 @@ let g:ale_rust_rls_config = {
 	\ }
 let g:ale_rust_rls_toolchain = ''
 let g:ale_rust_rls_executable = 'rust-analyzer'
+let g:ale_rust_cargo_include_features = 'clippy'
 
 " rust racer
 set hidden
