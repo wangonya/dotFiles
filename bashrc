@@ -1,5 +1,9 @@
+# starship
 eval "$(starship init bash)"
 export STARSHIP_CONFIG=~/dotFiles/starship.toml
+
+# PATHS
+export PATH=~/.local/bin:$PATH
 
 # aliases
 alias gst='git status'
