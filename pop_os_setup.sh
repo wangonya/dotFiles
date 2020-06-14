@@ -50,6 +50,7 @@ git clone https://github.com/ervandew/supertab .vim/pack/plugins/start/supertab
 git clone https://github.com/tpope/vim-commentary .vim/pack/plugins/start/commentary
 git clone https://github.com/tpope/vim-fugitive .vim/pack/plugins/start/fugitive
 git clone https://github.com/ctrlpvim/ctrlp.vim .vim/pack/plugins/start/ctrlp
+git clone https://github.com/mhinz/vim-startify .vim/pack/plugins/start/startify
 
 # setup shell
 curl -fsSL https://starship.rs/install.sh | bash
