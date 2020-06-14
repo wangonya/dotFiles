@@ -141,3 +141,41 @@ let g:racer_experimental_completer = 1
 
 " enable deoplete
 let g:deoplete#enable_at_startup = 1
+
+" more natural splitting
+set splitbelow
+set splitright
+
+" moving between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" supertab start from top
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
+" display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
+
+""""""""""""""""""""""""""""""
+" => CTRL-P
+""""""""""""""""""""""""""""""
+let g:ctrlp_working_path_mode = 0
+
+" Quickly find and open a file in the current working directory
+let g:ctrlp_map = '<C-f>'
+map <leader>j :CtrlP<cr>
+
+" Quickly find and open a buffer
+map <leader>b :CtrlPBuffer<cr>
+
+" Quickly find and open a recently opened file
+map <leader>f :CtrlPMRU<CR>
+
+let g:ctrlp_max_height = 20
+let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\env|^\venv'
+
+" vim fugitive bindings
+nmap <leader>gs :Gstatus<cr>
+nmap <leader>gc :Gcommit<cr>
