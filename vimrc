@@ -179,3 +179,4 @@ let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\env|^\venv'
 " vim fugitive bindings
 nmap <leader>gs :Gstatus<cr>
 nmap <leader>gc :Gcommit<cr>
+nmap <leader>gp :Gpush<cr>
