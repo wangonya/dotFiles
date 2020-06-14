@@ -47,6 +47,9 @@ git clone https://github.com/roxma/nvim-yarp .vim/pack/plugins/start/nvim-yarp
 git clone https://github.com/Shougo/deoplete.nvim .vim/pack/plugins/start/deoplete
 git clone https://github.com/deoplete-plugins/deoplete-jedi .vim/pack/plugins/start/deoplete-jedi
 git clone https://github.com/ervandew/supertab .vim/pack/plugins/start/supertab
+git clone https://github.com/tpope/vim-commentary .vim/pack/plugins/start/commentary
+git clone https://github.com/tpope/vim-fugitive .vim/pack/plugins/start/fugitive
+git clone https://github.com/ctrlpvim/ctrlp.vim .vim/pack/plugins/start/ctrlp
 
 # setup shell
 curl -fsSL https://starship.rs/install.sh | bash
