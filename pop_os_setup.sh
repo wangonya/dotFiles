@@ -1,14 +1,15 @@
 # install media codecs
-sudo apt install libavcodec-extra -y
+sudo apt install -y libavcodec-extra
 
 # install dev stuff
 sudo apt-get install curl
 sudo apt-get install git
 sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev
+sudo apt-get install -y unclutter
 
 # setup python stuff
-sudo apt install python3-pip -y
+sudo apt install -y python3-pip
 pip3 install virtualenv autopep8 isort jedi pynvim
 
 # install rust
