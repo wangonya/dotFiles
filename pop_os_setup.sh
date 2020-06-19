@@ -7,6 +7,13 @@ sudo apt-get install git
 sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev
 sudo apt-get install -y unclutter
+sudo apt install nodejs
+sudo apt install npm
+
+# solve npm eaccess issue
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+
 
 # setup python stuff
 sudo apt install -y python3-pip
