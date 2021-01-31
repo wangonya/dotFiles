@@ -31,6 +31,8 @@ echo
 sudo apt install postgresql postgresql-contrib -y
 sudo -u postgres createuser --interactive
 createdb $USER
+sudo apt-get install python-psycopg2
+sudo apt-get install libpq-dev
 
 echo
 echo ====================================
