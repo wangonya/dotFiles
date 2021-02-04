@@ -4,9 +4,6 @@ echo installing dev stuff
 echo ====================================
 echo
 sudo apt install git
-sudo add-apt-repository ppa:neovim-ppa/stable 
-sudo apt-get update
-sudo apt-get install neovim
 sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev python3-venv python3-wheel
 sudo apt-get install -y unclutter
@@ -19,9 +16,8 @@ wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
 sudo apt-get update
 sudo apt-get install insomnia
 sudo apt install terminator
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip
-unzip JetBrainsMono.zip
-fc-cache -fv
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Inconsolata.zip
+sudo snap install --classic code
 
 echo
 echo ====================================
@@ -33,6 +29,13 @@ sudo -u postgres createuser --interactive
 createdb $USER
 sudo apt-get install python-psycopg2
 sudo apt-get install libpq-dev
+
+echo
+echo ====================================
+echo installing beekeper studio
+echo ====================================
+echo
+sudo snap install beekeeper-studio
 
 echo
 echo ====================================
@@ -51,14 +54,6 @@ mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 npm install -g eslint-cli
 npm install -g prettier
-
-echo
-echo ====================================
-echo installing spacevim
-echo ====================================
-echo
-curl -sLf https://spacevim.org/install.sh | bash
-git clone https://github.com/wangonya/dotFiles.git --depth 1
 
 echo
 echo ====================================

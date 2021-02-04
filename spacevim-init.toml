@@ -1,5 +1,5 @@
 [options]
-    colorscheme = "molokai"
+    colorscheme = "onedark"
     colorscheme_bg = "dark"
     enable_guicolors = true
     statusline_separator = "arrow"
@@ -8,6 +8,7 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
     autocomplete_method = "coc"
+    statusline_separator = 'nil'
     bootstrap_before = "myspacevim#before"
 
 [[layers]]
@@ -38,4 +39,10 @@
 
 [[custom_plugins]]
   name = "prettier/vim-prettier"
+
+[[custom_plugins]]
+  name = "joeytwiddle/sexy_scroller.vim"
+
+[[custom_plugins]]
+  name = "numirias/semshi"
 
